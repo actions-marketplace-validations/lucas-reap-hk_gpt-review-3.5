@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: 3.11
 
-      - uses: Azure/login@v1.4.6
+      - uses: Azure/login@v1.4.7
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
